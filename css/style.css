@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+header {
+    overflow: hidden;
+}
+
+nav{
+    width: 920px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #fd3e04;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.menuLogo{
+    float: left;
+    width: 10%;
+}
+
+.menuPrinc{
+    float: left;
+    width: 40%;
+}
+
+.menuPrinc ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menuLogin{
+    float:right;
+    width: 30%;
+    margin-right: 0;
+}
+
+.menuLogin ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo{
+    width: 120px;
+}
+
+.corpo{
+    width: 920px;
+    height: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.vitrine{
+    background-color: white;
+    float: left;
+    width: 700px;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.vitrine div{
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.vitrine div img{
+    width: 340px;
+}
+
+.publicidade{
+    float: left;
+    width: 200px;
+}
+
+.vitrine button{
+    border: 0;
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
