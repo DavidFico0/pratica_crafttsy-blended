@@ -82,15 +82,39 @@ nav ul li {
     width: 340px;
 }
 
-.publicidade{
-    float: left;
-    width: 200px;
-}
-
 .vitrine button{
     border: 0;
     background-color: red;
     color: white;
     width: 120px;
     height: 30px;
+}
+
+.publicidade{
+    float: left;
+    width: 210px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.tutoHeader{
+    background-color: rgb(241, 236, 236);
+    color: gray;
+    border: 1px solid gray;
+    height: 20px;
+    padding: 5px;
+}
+
+.tutorial {
+    overflow: hidden;
+}
+
+.divTutoImg{
+    float: left;
+    width: 40%;
+}
+
+.divTutoTexto{
+    float: left;
+    width: 50%;
 }
